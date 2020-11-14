@@ -1,0 +1,25 @@
+# For the reason of safety, I am gonna do another testing hehehe.
+> init
+<<<
++ x.txt wug.txt
+> branch aBranch
+<<<
+> checkout aBranch
+<<<
+> add x.txt
+<<<
+> commit "add x.txt in aBranch."
+<<<
+> checkout master
+<<<
++ y.txt notwug.txt
+> add y.txt
+<<<
+> commit "add y.txt in master."
+<<<
+* x.txt
+= y.txt notwug.txt
+> checkout aBranch
+<<<
+* y.txt
+= x.txt wug.txt

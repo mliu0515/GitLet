@@ -1,0 +1,6 @@
+# A simple test of adding, committing, modifying, and checking out.
+> init
+<<<
++ x.txt wug.txt
+> add x.txt
+<<<

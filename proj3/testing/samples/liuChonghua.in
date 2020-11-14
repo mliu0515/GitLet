@@ -1,0 +1,33 @@
+# just a lil old test for my cranky ass lil programmm yas.
+> init
+<<<
++ x.txt wug.txt
+> branch mayLiuBranch
+<<<
+> checkout mayLiuBranch
+<<<
+> add x.txt
+<<<
+> commit "add x.txt into mayLiuBranch."
+<<<
+> branch secondBranch
+<<<
+> checkout secondBranch
+<<<
++ y.txt notwug.txt
+> add y.txt
+<<<
+> commit "add y.txt into secondBranch."
+<<<
+= x.txt wug.txt
+= y.txt notwug.txt
+> checkout mayLiuBranch
+<<<
+* y.txt
+= x.txt wug.txt
+> checkout master
+<<<
+* y.txt
+* x.txt
+
+

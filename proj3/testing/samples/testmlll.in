@@ -1,0 +1,25 @@
+# J chilling.
+> init
+<<<
++ x.txt wug.txt
++ y.txt wug.txt
+> add x.txt
+<<<
+> commit "add x.txt but not y.txt."
+<<<
+> branch mayLiu
+<<<
+> add y.txt
+<<<
+> commit "now I add y.txt"
+<<<
+> checkout mayLiu
+<<<
++ z.txt notwug.txt
+> add z.txt
+<<<
+> commit "add z.txt in mayLiu branch"
+<<<
+= z.txt notwug.txt
+= x.txt wug.txt
+* y.txt
